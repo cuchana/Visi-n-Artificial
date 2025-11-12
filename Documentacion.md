@@ -53,7 +53,9 @@ El proceso de integración fue gradual y requirió coordinación constante entre
 Primero se probó la detección de gestos en p5.js, luego se estableció la conexión con Node.js, y finalmente la comunicación hacia Unity.
 
 - ### Retos
-  
+ En el proceso encontramos diversos retos pero creo que el mayor fui la integracion de p5.js con el unity ya que este no tiene una conexion directa a unity por lo cual se tiene que hacer de otra manera. Logramos hacerlo mediante node.js, con el cual el p5.js puede mandar mensajes por un localhost, node.js haria de mediador, y el unity se encargaria de recibir esos mensajes con un pluging que se le intalo en su biblioteca.
+
+ Tambien parte del reto fue definir que gestos o movimientos ibamos a utilizar y como preparar el algoritmo para detectarlos, con esto llegamos a la conclusion de que lo mejor eran gestos sencillos de entender tanto para el programa como para el publico general.
 
 - ### Reflexiones sobre el proceso creativo
 
